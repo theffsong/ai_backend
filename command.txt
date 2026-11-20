@@ -3,3 +3,13 @@ pip install -r requirements.txt
 
 S:
 uvicorn main:app --host 0.0.0.0 --prot $PORT
+
+git init
+git add .
+git commit -m "최초 커밋"
+git branch -M main
+git remote add origin https://github.com/theffsong/ai_backend.git
+git push -u origin main
+
+README가 있을 경우
+git pull origin main --rebase
