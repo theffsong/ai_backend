@@ -1,0 +1,5 @@
+Build
+pip install -r requirements.txt
+
+S:
+uvicorn main:app --host 0.0.0.0 --prot $PORT
